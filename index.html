@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Le Creame</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="color-theme-pink">
+	
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+	  
+	   <section class="panel panel-left panel-cover">
+		   <div class="bg-panel">
+			   
+			   <img src="img/20170526-no-bake-cheesecake-vicky-wasik-18-1500x1125.jpg" alt="">
+		   </div>
+		   <article class="lista-menu">
+			   
+			   <div class="list media-list">
+				   <ul>
+					  <!--<li>
+						   <a href="#" class="item-content item-link">
+						   		<div class="item-media">
+									<i class="material-icons">
+									home
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Home
+									   </div>
+								   </div>
+								   <div class="item-subtitle">
+									   Info
+								   </div>
+								   <div class="item-text">		 
+								   Texto informativo
+								   </div>
+							   </div>
+						   </a>
+					   </li>-->
+					   
+					    <li>
+						   <a href="/home/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									cake
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Cakes
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					     <li>
+						   <a href="/home/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									spa
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Cupcakes
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   <li>
+						   <a href="/cupones/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									 local_cafe
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										  Sweeties 
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   
+					     <li>
+						   <a href="/cupones/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									room_service
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										  Pies
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   <li>
+						   <a href="/comidas/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									store_mall_directory
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Stores
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+					   
+					    <a href="/comidas/" class="item-content item-link panel-close">
+						   		<div class="item-media">
+									<i class="material-icons">
+									card_giftcard
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										   Delivery
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   <li>
+						   <a href="#" class="item-content item-link">
+						   		<div class="item-media">
+									<i class="material-icons">
+									favorite
+									</i>
+							    </div>
+							   <div class="item-inner">
+								   <div class="item-title-row">
+									   <div class="item-title">
+										  Favorites
+									   </div>
+								   </div>
+							   </div>
+						   </a>
+					   </li>
+				   </ul>
+			   </div>
+			   
+			   
+		   </article>
+	   </section>
+		
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+              
+			  <div class="left">
+				  <a href="#" class="icon-only link panel-open" data-panel="left">
+					  <i class="material-icons">menu</i>
+				  </a>
+			  </div>
+			  <div class="title">Le Creame</div>
+            </div>
+          </nav>
+		  
+			<div class="toolbar tabbar-labels toolbar-top-md">
+				<div class="toolbar-inner">
+					<a href="/comidas/" class="tab-link tab-link-active">
+						<i class="material-icons">room_service</i>
+						<span class="tabbar-label">Cakes</span>
+					</a>
+					<a href="#" class="tab-link tab-link-active">
+						<i class="material-icons">place</i>
+						<span class="tabbar-label">Cookies</span>
+					</a>
+					<a href="#" class="tab-link tab-link-active">
+						<i class="material-icons">place</i>
+						<span class="tabbar-label">Fruit</span>
+					</a>
+					<a href="#" class="tab-link tab-link-active">
+						<i class="material-icons">place</i>
+						<span class="tabbar-label">Puff</span>
+					</a>
+				</div>
+			</div>
+
+          <!-- Scrollable page content -->
+          <div class="page-content cupones">
+		
+		<div class="row">
+			
+			<article class="col-50">
+				
+				<div class="card">
+					<a href="/info-cupon/">
+						<div class="card-header">
+							<img src="img/blueberry-cake.jpg" class="img-fluid">
+						</div>
+						<div class="card-content">
+							<div class="block">
+								<h4>Chocolaty currant</h4>
+							</div>
+						</div>
+						<div class="card-footer red">
+							$12
+						</div>
+					</a>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<img src="img/raspberry-meringue.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Raspberry meringue</h4>
+						</div>
+					</div>
+					<div class="card-footer red">
+						$15
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<img src="img/chocolate-cake.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Strawberry night</h4>
+						</div>
+					</div>
+					<div class="card-footer red">
+						$10
+					</div>
+				</div>
+				
+				
+			</article>
+			
+			<article class="col-50">
+			
+				<div class="card">
+					<div class="card-header">
+						<img src="img/cheesecake.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Delicate cherries</h4>
+						</div>
+					</div>
+					<div class="card-footer red">
+						$16
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<img src="img/lemon-pie.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>Layered pumpkin dessert</h4>
+						</div>
+					</div>
+					<div class="card-footer red">
+						$20
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<img src="img/download.jpg" class="img-fluid">
+					</div>
+					<div class="card-content">
+						<div class="block">
+							<h4>French silk brownies</h4>
+						</div>
+					</div>
+					<div class="card-footer red">
+						$17
+					</div>
+				</div>
+				
+			</article>
+		
+		</div>
+		
+		
+	</div>
+        </div>
+      </div>
+    </div>
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
