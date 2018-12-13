@@ -17,25 +17,21 @@ var myApp = new Framework7({
     	name: 'home',
   		},
 		{
-		path: '/cupones/',
-    	url: 'cupones.html',
-    	name: 'cupones',
+		path: '/info-cakes/',
+    	url: 'info-cakes.html',
+    	name: 'info-cakes',
   		},
 		{
-		path: '/info-cupon/',
-    	url: 'info-cupon.html',
-    	name: 'info-cupon',
+		path: '/cookies/',
+    	url: 'cookies.html',
+    	name: 'cookies',
   		},
 		{
-		path: '/comidas/',
-    	url: 'comidas.html',
-    	name: 'comidas',
+		path: '/info-cookies/',
+    	url: 'info-cookies.html',
+    	name: 'info-cookies',
   		},
-		{
-		path: '/info-comida/',
-    	url: 'info-comida.html',
-    	name: 'info-comida',
-  		}
+		
 		
 	]
 });
